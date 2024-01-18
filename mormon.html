@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+   
+    <title>Mormones</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Mormones/img/logo-mormon.webp">
+    <link rel="stylesheet" href="mormon.css">
+    <link rel="stylesheet" href="https://unpkg.com/bento.css/bento.min.css">
+    <link rel="jquery" href="mormon.js">
+</head>
+
+<body style="overflow-x:hidden;">
+    <nav style="background-color: rgba(255, 255, 255, 0.05); backdrop-filter: blur(5px);">
+        <div class="contenedor">
+        <div class="div-1" style="margin-left:30px;">  <a href="../Mormones/mormon.html" style="border:none;">
+            <img src="../Mormones/img/logo-mormon.webp" style="width:60px;height:60px; cursor: pointer; margin-left:35px;" alt="Imagen" id="miImagen" title="Inicio" >  </a>
+            <p style="font-family: Arial, sans-serif; font-size: 22.5px; color:white; ">Mormones</p>
+    </div>
+        <div class="div-2">
+            <div id="header">
+                <ul style="align-items: left">
+                <li class="opciones"><a href="" class="menu1, menu2">Animes</a></li>
+                <li class="opciones"><a href="" class="menu1">Series</a></li>
+                <li class="opciones"><a href=""class="menu1">Mangas</a></li>
+                <li class="opciones"><a href=""class="menu1">CV</a></li>
+    </div>
+</div>
+</ul>
+<div class="navigation-buttons" style="margin-left:670px;">
+  <button onclick="goToSection('1')">Ir a Sección 1</button>
+  <div id="currentSectionIndicator" style="margin-left:-2.5px;"></div>
+  <button onclick="goToSection('2')">Ir a Sección 2</button>
+</div>
+    </nav>
+  
+
+  <div class="grid active" id="1">
+    <!-- Primero - Solo Leveling -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/solo-leveling.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">Solo Leveling</h2>
+            <p class="card-text">Un cazador débil se convierte en el más fuerte al subir de nivel en mazmorras.</p>
+          </div>
+        </article>
+    
+        <!-- Segundo - One Piece -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/One-Piece.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">One Piece</h2>
+            <p class="card-text">Monkey D. Luffy busca el tesoro One Piece, con poderes de frutas del diablo y amigos leales.</p>
+          </div>
+        </article>
+    
+        <!-- Tercero - Digimon -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/Digimon.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">Digimon</h2>
+            <p class="card-text">Niños se unen a criaturas digitales, los Digimon, para salvar el mundo digital de amenazas malévolas.</p>
+          </div>
+        </article>
+    
+        <!-- Cuarto - Mushoku Tensei -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/Mushoku-Tensei.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">Mushoku Tensei</h2>
+            <p class="card-text">Después de reencarnar, Rudeus busca redimir su vida pasada, convirtiéndose en un poderoso aventurero en otro mundo..</p>
+          </div>
+        </article>
+    
+        <!-- Quinto - La Eminencia de la Sombra -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/La-Eminencia-de-la-Sombra.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">La Eminencia de la Sombra</h2>
+            <p class="card-text">Un asesino reencarna en un mundo mágico con habilidades excepcionales y enfrenta desafíos intrigantes y oscuros.</p>
+          </div>
+        </article>
+    
+        <!-- Sexto - Classroom of the Elite -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/Classroom of the Elite.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">Classroom of the Elite</h2>
+            <p class="card-text">Estudiantes en la Academia de Élite compiten intelectualmente en un sistema oculto, revelando secretos y manipulaciones.</p>
+          </div>
+        </article>
+    
+        <!-- Septimo - Asesination Classroom -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/Asesination Classroom.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">Asesination Classroom</h2>
+            <p class="card-text">Estudiantes intentan asesinar a su peculiar maestro, una criatura alienígena, para salvar la Tierra de la destrucción.</p>
+          </div>
+        </article>
+    
+        <!-- Octavo - Talentless Nana -->
+        <article class="card">
+          <div class="card-content">
+            <img src="../Mormones/img/Talentless Nana.webp" alt="Imagen de ejemplo">
+            <h2 class="card-title">Talentless Nana</h2>
+            <p class="card-text">Es una estudiante con habilidades secretas, en su misión de eliminar amenazas paranormales.</p>
+          </div>
+        </article>
+    <!-- Noveno - Kimetsu no Yaiba -->
+    <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Kimetsu-no-Yaiba.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Kimetsu no Yaiba</h2>
+          <p class="card-text">Tanjiro Kamado, junto con amigos y espada Nichirin, busca venganza y erradicar demonios para salvar a su hermana.</p>
+        </div>
+    </article>
+  
+      <!-- Decimo - Jujutsu Kaisen -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Jujutsu-Kaisen.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Jujutsu Kaisen</h2>
+          <p class="card-text">Estudiante Yuji Itadori se une a la Academia de Echisería para combatir maldiciones y salvar a amigos.</p>
+        </div>
+      </article>
+  
+      <!-- Onceavo - Blue Lock -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Blue-Lock.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Blue Lock</h2>
+          <p class="card-text">Jóvenes futbolistas compiten en el programa Blue Lock para ser la próxima estrella de la selección nacional.</p>
+        </div>
+      </article>
+  
+      <!-- Doceavo - Boku no Hero -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Boku no Hero.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Boku no Hero</h2>
+          <p class="card-text">Izuku Midoriya, sin superpoderes, obtiene habilidades y se enfrenta a villanos en la academia para héroes.</p>
+        </div>
+      </article>
+  
+      <!-- Treceavo . Dr. Stone -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Dr. Stone.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Dr. Stone</h2>
+          <p class="card-text">Senku, científico brillante, revive la humanidad tras una catástrofe, usando la ciencia para reconstruir la civilización.</p>
+        </div>
+      </article>
+  
+      <!-- Catorceavo - Zom 100 -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Zom 100.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Zom 100</h2>
+          <p class="card-text">Akira, un oficinista, enfrenta un apocalipsis zombi con una perspectiva positiva, buscando vivir al máximo.</p>
+        </div>
+      </article>
+  
+      <!-- Quinceavo - Kaguya Sama -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Kaguya Sama.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Kaguya Sama</h2>
+          <p class="card-text">Kaguya y Miyuki, brillantes estudiantes, juegan juegos mentales para confesar su amor en la academia.</p>
+        </div>
+      </article>
+  
+      <!-- Diesiseisavo - Stein Gate -->
+      <article class="card">
+        <div class="card-content">
+          <img src="../Mormones/img/Stein Gate.webp" alt="Imagen de ejemplo">
+          <h2 class="card-title">Stein Gate</h2>
+          <p class="card-text">Rintarou Okabe descubre la manipulación del tiempo mientras intenta evitar desastres futuros y salvar a sus amigos.</p>
+        </div>
+      </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+<!-- Agrega un identificador (id) a la siguiente sección -->
+      <div class="grid" id="2">
+  <!-- Diesisieteavo - Another -->
+     <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/another.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">Another</h2>
+        <p class="card-text">"Another": Estudiante Koichi enfrenta misteriosa maldición escolar relacionada con tragedias y secretos oscuros mortales.</p>
+      </div>
+    </article>
+
+    <!-- Segundo - One Piece -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/One-Piece.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">One Piece</h2>
+        <p class="card-text">Monkey D. Luffy busca el tesoro One Piece, con poderes de frutas del diablo y amigos leales.</p>
+      </div>
+    </article>
+
+    <!-- Tercero - Digimon -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/Digimon.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">Digimon</h2>
+        <p class="card-text">Niños se unen a criaturas digitales, los Digimon, para salvar el mundo digital de amenazas malévolas.</p>
+      </div>
+    </article>
+
+    <!-- Cuarto - Mushoku Tensei -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/Mushoku-Tensei.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">Mushoku Tensei</h2>
+        <p class="card-text">Después de reencarnar, Rudeus busca redimir su vida pasada, convirtiéndose en un poderoso aventurero en otro mundo..</p>
+      </div>
+    </article>
+
+    <!-- Quinto - La Eminencia de la Sombra -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/La-Eminencia-de-la-Sombra.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">La Eminencia de la Sombra</h2>
+        <p class="card-text">Un asesino reencarna en un mundo mágico con habilidades excepcionales y enfrenta desafíos intrigantes y oscuros.</p>
+      </div>
+    </article>
+
+    <!-- Sexto - Classroom of the Elite -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/Classroom of the Elite.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">Classroom of the Elite</h2>
+        <p class="card-text">Estudiantes en la Academia de Élite compiten intelectualmente en un sistema oculto, revelando secretos y manipulaciones.</p>
+      </div>
+    </article>
+
+    <!-- Septimo - Asesination Classroom -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/Asesination Classroom.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">Asesination Classroom</h2>
+        <p class="card-text">Estudiantes intentan asesinar a su peculiar maestro, una criatura alienígena, para salvar la Tierra de la destrucción.</p>
+      </div>
+    </article>
+
+    <!-- Octavo - Talentless Nana -->
+    <article class="card">
+      <div class="card-content">
+        <img src="../Mormones/img/Talentless Nana.webp" alt="Imagen de ejemplo">
+        <h2 class="card-title">Talentless Nana</h2>
+        <p class="card-text">Es una estudiante con habilidades secretas, en su misión de eliminar amenazas paranormales.</p>
+      </div>
+    </article>
+<!-- Noveno - Kimetsu no Yaiba -->
+<article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Kimetsu-no-Yaiba.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Kimetsu no Yaiba</h2>
+      <p class="card-text">Tanjiro Kamado, junto con amigos y espada Nichirin, busca venganza y erradicar demonios para salvar a su hermana.</p>
+    </div>
+</article>
+
+  <!-- Decimo - Jujutsu Kaisen -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Jujutsu-Kaisen.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Jujutsu Kaisen</h2>
+      <p class="card-text">Estudiante Yuji Itadori se une a la Academia de Echisería para combatir maldiciones y salvar a amigos.</p>
+    </div>
+  </article>
+
+  <!-- Onceavo - Blue Lock -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Blue-Lock.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Blue Lock</h2>
+      <p class="card-text">Jóvenes futbolistas compiten en el programa Blue Lock para ser la próxima estrella de la selección nacional.</p>
+    </div>
+  </article>
+
+  <!-- Doceavo - Boku no Hero -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Boku no Hero.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Boku no Hero</h2>
+      <p class="card-text">Izuku Midoriya, sin superpoderes, obtiene habilidades y se enfrenta a villanos en la academia para héroes.</p>
+    </div>
+  </article>
+
+  <!-- Treceavo . Dr. Stone -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Dr. Stone.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Dr. Stone</h2>
+      <p class="card-text">Senku, científico brillante, revive la humanidad tras una catástrofe, usando la ciencia para reconstruir la civilización.</p>
+    </div>
+  </article>
+
+  <!-- Catorceavo - Zom 100 -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Zom 100.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Zom 100</h2>
+      <p class="card-text">Akira, un oficinista, enfrenta un apocalipsis zombi con una perspectiva positiva, buscando vivir al máximo.</p>
+    </div>
+  </article>
+
+  <!-- Quinceavo - Kaguya Sama -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Kaguya Sama.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Kaguya Sama</h2>
+      <p class="card-text">Kaguya y Miyuki, brillantes estudiantes, juegan juegos mentales para confesar su amor en la academia.</p>
+    </div>
+  </article>
+
+  <!-- Diesiseisavo - Stein Gate -->
+  <article class="card">
+    <div class="card-content">
+      <img src="../Mormones/img/Stein Gate.webp" alt="Imagen de ejemplo">
+      <h2 class="card-title">Stein Gate</h2>
+      <p class="card-text">Rintarou Okabe descubre la manipulación del tiempo mientras intenta evitar desastres futuros y salvar a sus amigos.</p>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  // Función para cambiar entre secciones sin animación
+  function goToSection(sectionId) {
+      // Ocultar todas las secciones
+      var sections = document.querySelectorAll('.grid');
+      sections.forEach(function (section) {
+          section.classList.remove('active');
+      });
+
+      // Mostrar la sección activa
+      document.getElementById(sectionId).classList.add('active');
+
+      // Actualizar la indicación de la sección actual
+      document.getElementById('currentSectionIndicator').innerText = '' + sectionId;
+
+      // Volver al principio de la página
+      window.scrollTo(0, 0);
+  }
+
+  // Mostrar automáticamente la Sección 1 al cargar la página
+  document.addEventListener("DOMContentLoaded", function () {
+      goToSection('1');
+  });
+</script>
+
+</body>
+</html>
